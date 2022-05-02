@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+Allow from all
+Options -Indexes 
+ErrorDocument 403 http://localhost/pesquisa/
+ErrorDocument 404 http://localhost/pesquisa/

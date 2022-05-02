@@ -1,0 +1,8 @@
+Site de emojis
+https://html-css-js.com/html/character-codes/
+
+Definir meses em português no MySQL
+SET GLOBAL lc_time_names=pt_BR;
+
+Consultar variável
+SHOW GLOBAL VARIABLES like 'lc_time_names';
